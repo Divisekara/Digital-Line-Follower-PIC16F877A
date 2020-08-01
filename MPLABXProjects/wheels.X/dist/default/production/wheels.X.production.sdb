@@ -1,0 +1,209 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"29 C:\Users\user\MPLABXProjects\wheels.X\newmain.c
+[v _PWM_Max_Duty PWM_Max_Duty `(i  1 e 2 0 ]
+"33
+[v _PWM1_Init PWM1_Init `(i  1 e 2 0 ]
+"38
+[v _PWM2_Init PWM2_Init `(i  1 e 2 0 ]
+"43
+[v _PWM1_Duty PWM1_Duty `(i  1 e 2 0 ]
+"53
+[v _PWM2_Duty PWM2_Duty `(i  1 e 2 0 ]
+"63
+[v _PWM1_Start PWM1_Start `(i  1 e 2 0 ]
+"85
+[v _PWM2_Start PWM2_Start `(i  1 e 2 0 ]
+"108
+[v _main main `(v  1 e 1 0 ]
+"890 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f877a.h
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"1078
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @27 ]
+"1373
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1435
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1814
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2419
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @186 ]
+"2421
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @187 ]
+"2423
+[v _CCP1X CCP1X `VEb  1 e 0 @189 ]
+"2425
+[v _CCP1Y CCP1Y `VEb  1 e 0 @188 ]
+"2435
+[v _CCP2M2 CCP2M2 `VEb  1 e 0 @234 ]
+"2437
+[v _CCP2M3 CCP2M3 `VEb  1 e 0 @235 ]
+"2439
+[v _CCP2X CCP2X `VEb  1 e 0 @237 ]
+"2441
+[v _CCP2Y CCP2Y `VEb  1 e 0 @236 ]
+"2623
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"2625
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2627
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2629
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2703
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"2705
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"2723
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"2763
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1081 ]
+"2765
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"28 C:\Users\user\MPLABXProjects\wheels.X\newmain.c
+[v _freq freq `l  1 e 4 0 ]
+"108
+[v _main main `(v  1 e 1 0 ]
+{
+"128
+} 0
+"85
+[v _PWM2_Start PWM2_Start `(i  1 e 2 0 ]
+{
+"101
+} 0
+"38
+[v _PWM2_Init PWM2_Init `(i  1 e 2 0 ]
+{
+[v PWM2_Init@fre fre `l  1 p 4 6 ]
+"42
+} 0
+"53
+[v _PWM2_Duty PWM2_Duty `(i  1 e 2 0 ]
+{
+[v PWM2_Duty@duty duty `ui  1 p 2 46 ]
+"62
+} 0
+"63
+[v _PWM1_Start PWM1_Start `(i  1 e 2 0 ]
+{
+"79
+} 0
+"33
+[v _PWM1_Init PWM1_Init `(i  1 e 2 0 ]
+{
+[v PWM1_Init@fre fre `l  1 p 4 6 ]
+"37
+} 0
+"43
+[v _PWM1_Duty PWM1_Duty `(i  1 e 2 0 ]
+{
+[v PWM1_Duty@duty duty `ui  1 p 2 46 ]
+"52
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 41 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 45 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 40 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 32 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 27 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 31 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 30 ]
+[v ___ftmul@exp exp `uc  1 a 1 26 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 16 ]
+[v ___ftmul@f2 f2 `f  1 p 3 19 ]
+"157
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 11 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 15 ]
+[v ___ftdiv@exp exp `uc  1 a 1 14 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 10 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 0 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 3 ]
+"86
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 13 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"29 C:\Users\user\MPLABXProjects\wheels.X\newmain.c
+[v _PWM_Max_Duty PWM_Max_Duty `(i  1 e 2 0 ]
+{
+"32
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"42
+} 0

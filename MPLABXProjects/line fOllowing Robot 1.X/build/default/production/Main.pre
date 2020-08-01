@@ -1,0 +1,97 @@
+
+# 1 "Main.c"
+
+# 12
+void forward () {
+PWM1_Set_Duty (220);
+PWM2_Set_Duty (220) ;}
+void forwardd (){
+PWM1_Set_Duty (200);
+PWM2_Set_Duty (200) ;}
+void right(){
+PWM1_Set_Duty (50);
+PWM2_Set_Duty (220) ;}
+void rightt(){
+PWM1_Set_Duty (100);
+PWM2_Set_Duty(220) ;}
+void left(){
+PWM1_Set_Duty(220);
+PWM2_Set_Duty(50) ;}
+void leftt(){
+PWM1_Set_Duty(220);
+PWM2_Set_Duty(100) ;}
+void stop(){
+PWM1_Set_Duty(0);
+PWM2_Set_Duty(0) ;}
+
+void main(void) {
+TRISD=0x00;
+TRISC=0x00;
+TRISB=0xFF;
+PORTD=0;
+PORTB=0;
+PORTC=0;
+PWM1_Init (5000);
+PWM2_Init (5000);
+PWM1_Start ();
+PWM2_Start ();
+PWM1_Set_Duty (0);
+PWM2_Set_Duty (0);
+PORTD.F1=1;
+PORTD.F2=0;
+PORTD.F3=1;
+PORTD.F4=0;
+while (1) {
+if ((PORTB.F5==1) &&(PORTB.F6==1)){
+stop () ;}
+else {
+if ((PORTB.F4==1)&&(PORTB.F5==0)&&(PORTB.F6==0)){
+while (1){
+if ((PORTB.F5==0) &&(PORTB.F6==0)){
+forwardd () ;}
+else if ((PORTB.F5==0)&&(PORTB.F6==1)){
+left () ;}
+else if ((PORTB.F5==1)&&(PORTB.F6==0)){
+right() ;}
+else if ((PORTB.F5==1)&&(PORTB.F6==1)) {
+while (1){
+if ((PORTB.F5==0)&&(PORTB.F6==0)){
+break ;}
+else{
+leftt() ;}
+}
+break ;}
+}
+}
+else if ((PORTB.F7==1)&&(PORTB.F5==0)&&(PORTB.F6==0)){
+while (1){
+if ((PORTB.F5==0)&&(PORTB.F6==0)){
+forward () ;}
+else if ((PORTB.F5==0)&&(PORTB.F6==1)){
+left() ;}
+else if ((PORTB.F5==1)&&(PORTB.F6==0)){
+right() ;}
+else if ((PORTB.F5==1)&&(PORTB.F6==1)){
+while (1){
+if ((PORTB.F5==0)&&(PORTB.F6==0)){
+break ;}
+else{
+rightt() ;}
+}
+break ;}
+}
+}
+else {
+if ((PORTB.F5==0)&&(PORTB.F6==0)){
+forward() ;}
+else if ((PORTB.F5==0)&&(PORTB.F6==1)){
+left () ;}
+else if ((PORTB.F5==1)&&(PORTB.F6==0)){
+right () ;}
+else {
+stop () ;}
+}
+}
+}
+}
+
