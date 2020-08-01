@@ -1,0 +1,26 @@
+L293d motor cotroller ic 
+PIC 16F877A Micro Controller
+1- 8MHz crystal clock
+22pf capacitors
+4-TCRT 5000 phototransistor sensors
+4-LM324N comparators
+4- 4.7k variable resistors
+4-150 Ohms resistors
+4-10k resistors
+1-7805 voltage regulator
+heat sink
+1-1N4002 diode
+1 – 10uF
+1 – 1uF
+Barrel Connector
+11.4V 3-cell LIPO Battery
+Proto-Boards
+
+
+******** wires***********
+male headers 
+female headers
+normal wires
+male jumper wires
+female jumper wires
+
